@@ -9,7 +9,7 @@ const Navbar = ({ className }: { className?: string }) => {
   return (
     <div
       className={cn(
-        "fixed top-0 md:top-20 inset-x-0 max-w-5xl mx-auto z-50",
+        "absolute top-0 md:top-10 inset-x-0 max-w-5xl mx-auto z-50",
         className
       )}
     >
@@ -23,7 +23,7 @@ const Navbar = ({ className }: { className?: string }) => {
             ></MenuItem>
           </Link>
           <MenuItem setActive={setActive} active={active} item="Our Courses">
-            <div className="flex flex-col space-y-5 text-sm md:text-2xl">
+            <div className="flex flex-col space-y-5 text-sm font-bold">
               <HoveredLink href="/courses">All Courses</HoveredLink>
               <HoveredLink href="/courses">Basic Music Theory</HoveredLink>
               <HoveredLink href="/courses">Advanced Composition</HoveredLink>

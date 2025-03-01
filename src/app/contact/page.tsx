@@ -2,7 +2,7 @@ import { Meteors } from "@/components/ui/meteors";
 
 const Page = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen p-6">
+    <div className="flex items-center justify-center min-h-screen p-6 mt-12">
       <div className="max-w-lg w-full p-8 border border-gray-300 rounded-xl shadow-sm">
         <h2 className="text-3xl font-semibold dark:text-white text-center">
           Contact Us
